@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240617033121">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__row">
+						<a href="/" class="top-header__logo logo">
+							<img src="img/logo.svg" alt="lgoo">
+						</a>
+						<div class="top-header__left">
+							<button data-popup="#region" class="top-header__region">
+								<img src="img/icons/geo.svg" alt="icon">
+								<span>Ваш город: <span>Москва</span></span>
+							</button>
+							<div class="top-header__social social">
+								<a href="#" class="social__link">
+									<img src="img/icons/wh.svg" alt="Whatsapp">
+								</a>
+								<a href="#" class="social__link">
+									<img src="img/icons/tg.svg" alt="Telegram">
+								</a>
+							</div>
+						</div>
+						<div class="top-header__right">
+							<a href="tel:+78005553555" class="top-header__tel">
+								<img src="img/icons/tel.svg" alt="tel">
+								<span>8 800 555 3555</span>
+							</a>
+							<div class="top-header__text">Поддержка 24/7</div>
+							<a href="mailto:info-site@mail.ru" class="top-header__email">
+								<img src="img/icons/email.svg" alt="email">
+								<span>info-site@mail.ru</span>
+							</a>
+						</div>
+						<div class="top-header__icon icon-menu">
+							<img src="img/icons/burger.svg" alt="logo">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__wrap">
+					<div class="bottom-header__container">
+						<div class="bottom-header__row">
+							<a href="/" class="bottom-header__logo logo">
+								<img src="img/logo.svg" alt="logo">
+							</a>
+							<div class="bottom-header__menu menu">
+
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item current_page_item">
+											<a href="" class="menu__link">Главная</a>
+										</li>
+										<li class="menu__item">
+											<a href="" class="menu__link">Услуги</a>
+										</li>
+										<li class="menu__item">
+											<a href="" class="menu__link">О компании</a>
+										</li>
+										<li class="menu__item">
+											<a href="" class="menu__link">Сотрудничество</a>
+										</li>
+										<li class="menu__item">
+											<a href="" class="menu__link">Отзывы</a>
+										</li>
+										<li class="menu__item">
+											<a href="" class="menu__link">Контакты</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="bottom-header__right">
+								<button data-popup="#order" class="bottom-header__btn btn">
+									Заказать звонок
+								</button>
+								<button class="bottom-header__search-btn open-search">
+									<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M23.7504 21.9163L19.3588 17.5375C20.7757 15.7323 21.5445 13.5032 21.5417 11.2083C21.5417 9.1646 20.9356 7.16675 19.8002 5.46745C18.6647 3.76814 17.0509 2.44369 15.1627 1.66158C13.2746 0.879477 11.1969 0.674843 9.1924 1.07356C7.18793 1.47227 5.34671 2.45643 3.90157 3.90157C2.45643 5.34671 1.47227 7.18793 1.07356 9.1924C0.674843 11.1969 0.879477 13.2746 1.66158 15.1627C2.44369 17.0509 3.76814 18.6647 5.46745 19.8002C7.16675 20.9356 9.1646 21.5417 11.2083 21.5417C13.5032 21.5445 15.7323 20.7757 17.5375 19.3588L21.9163 23.7504C22.0363 23.8715 22.1792 23.9676 22.3366 24.0332C22.494 24.0987 22.6628 24.1325 22.8333 24.1325C23.0039 24.1325 23.1727 24.0987 23.3301 24.0332C23.4875 23.9676 23.6303 23.8715 23.7504 23.7504C23.8715 23.6303 23.9676 23.4875 24.0332 23.3301C24.0987 23.1727 24.1325 23.0039 24.1325 22.8333C24.1325 22.6628 24.0987 22.494 24.0332 22.3366C23.9676 22.1792 23.8715 22.0363 23.7504 21.9163V21.9163ZM3.45834 11.2083C3.45834 9.67553 3.91287 8.17715 4.76445 6.90267C5.61603 5.62819 6.82641 4.63485 8.24254 4.04827C9.65867 3.46169 11.2169 3.30822 12.7203 3.60725C14.2236 3.90629 15.6046 4.6444 16.6884 5.72826C17.7723 6.81212 18.5104 8.19304 18.8094 9.69639C19.1085 11.1997 18.955 12.758 18.3684 14.1741C17.7818 15.5903 16.7885 16.8006 15.514 17.6522C14.2395 18.5038 12.7411 18.9583 11.2083 18.9583C9.15291 18.9583 7.18167 18.1418 5.72826 16.6884C4.27485 15.235 3.45834 13.2638 3.45834 11.2083Z" fill="#25324B" stroke="white" />
+									</svg>
+								</button>
+							</div>
+
+						</div>
+						<div class="bottom-header__search search">
+							<form action="#" class="search__input">
+								<input type="text" placeholder="Что будем искать...">
+								<button class="search__icon">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M15.2583 14.075L12.425 11.25C13.3392 10.0854 13.8352 8.64721 13.8333 7.16667C13.8333 5.84813 13.4423 4.5592 12.7098 3.46287C11.9773 2.36654 10.9361 1.51206 9.71789 1.00747C8.49972 0.502889 7.15927 0.370866 5.86607 0.628101C4.57286 0.885336 3.38497 1.52027 2.45262 2.45262C1.52027 3.38497 0.885336 4.57286 0.628101 5.86607C0.370866 7.15927 0.502889 8.49972 1.00747 9.71789C1.51206 10.9361 2.36654 11.9773 3.46287 12.7098C4.5592 13.4423 5.84813 13.8333 7.16667 13.8333C8.64721 13.8352 10.0854 13.3392 11.25 12.425L14.075 15.2583C14.1525 15.3364 14.2446 15.3984 14.3462 15.4407C14.4477 15.4831 14.5567 15.5048 14.6667 15.5048C14.7767 15.5048 14.8856 15.4831 14.9871 15.4407C15.0887 15.3984 15.1809 15.3364 15.2583 15.2583C15.3364 15.1809 15.3984 15.0887 15.4407 14.9871C15.4831 14.8856 15.5048 14.7767 15.5048 14.6667C15.5048 14.5567 15.4831 14.4477 15.4407 14.3462C15.3984 14.2446 15.3364 14.1525 15.2583 14.075V14.075ZM2.16667 7.16667C2.16667 6.17776 2.45991 5.21106 3.00932 4.38882C3.55873 3.56657 4.33962 2.92571 5.25325 2.54727C6.16688 2.16883 7.17222 2.06982 8.14212 2.26274C9.11203 2.45567 10.0029 2.93187 10.7022 3.63114C11.4015 4.3304 11.8777 5.22131 12.0706 6.19122C12.2635 7.16112 12.1645 8.16646 11.7861 9.08009C11.4076 9.99372 10.7668 10.7746 9.94452 11.324C9.12227 11.8734 8.15558 12.1667 7.16667 12.1667C5.84059 12.1667 4.56882 11.6399 3.63114 10.7022C2.69345 9.76452 2.16667 8.49275 2.16667 7.16667Z" fill="white" />
+									</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__burger burger-menu">
+				<div class="burger-menu__wrap">
+					<div class="burger-menu__top">
+						<a href="/" class="burger-menu__logo logo">
+							<img src="img/logo.svg" alt="logo">
+						</a>
+						<button class="burger-menu__cross close-menu">
+							<img src="img/icons/cross.svg" alt="close">
+						</button>
+					</div>
+					<div class="burger-menu__search search">
+						<form action="#" class="search__input">
+							<input type="text" placeholder="Что будем искать...">
+							<button class="search__icon">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15.2583 14.075L12.425 11.25C13.3392 10.0854 13.8352 8.64721 13.8333 7.16667C13.8333 5.84813 13.4423 4.5592 12.7098 3.46287C11.9773 2.36654 10.9361 1.51206 9.71789 1.00747C8.49972 0.502889 7.15927 0.370866 5.86607 0.628101C4.57286 0.885336 3.38497 1.52027 2.45262 2.45262C1.52027 3.38497 0.885336 4.57286 0.628101 5.86607C0.370866 7.15927 0.502889 8.49972 1.00747 9.71789C1.51206 10.9361 2.36654 11.9773 3.46287 12.7098C4.5592 13.4423 5.84813 13.8333 7.16667 13.8333C8.64721 13.8352 10.0854 13.3392 11.25 12.425L14.075 15.2583C14.1525 15.3364 14.2446 15.3984 14.3462 15.4407C14.4477 15.4831 14.5567 15.5048 14.6667 15.5048C14.7767 15.5048 14.8856 15.4831 14.9871 15.4407C15.0887 15.3984 15.1809 15.3364 15.2583 15.2583C15.3364 15.1809 15.3984 15.0887 15.4407 14.9871C15.4831 14.8856 15.5048 14.7767 15.5048 14.6667C15.5048 14.5567 15.4831 14.4477 15.4407 14.3462C15.3984 14.2446 15.3364 14.1525 15.2583 14.075V14.075ZM2.16667 7.16667C2.16667 6.17776 2.45991 5.21106 3.00932 4.38882C3.55873 3.56657 4.33962 2.92571 5.25325 2.54727C6.16688 2.16883 7.17222 2.06982 8.14212 2.26274C9.11203 2.45567 10.0029 2.93187 10.7022 3.63114C11.4015 4.3304 11.8777 5.22131 12.0706 6.19122C12.2635 7.16112 12.1645 8.16646 11.7861 9.08009C11.4076 9.99372 10.7668 10.7746 9.94452 11.324C9.12227 11.8734 8.15558 12.1667 7.16667 12.1667C5.84059 12.1667 4.56882 11.6399 3.63114 10.7022C2.69345 9.76452 2.16667 8.49275 2.16667 7.16667Z" fill="white" />
+								</svg>
+							</button>
+						</form>
+					</div>
+					<div class="burger-menu__menu menu-mobile">
+						<ul class="menu-mobile__list">
+							<li class="menu-mobile__item">
+								<a href="#" class="menu-mobile__link">Главная</a>
+							</li>
+							<li class="menu-mobile__item">
+								<a href="#" class="menu-mobile__link">Услуги</a>
+							</li>
+							<li class="menu-mobile__item">
+								<a href="#" class="menu-mobile__link">О компании</a>
+							</li>
+							<li class="menu-mobile__item">
+								<a href="#" class="menu-mobile__link">Сотрудничество</a>
+							</li>
+							<li class="menu-mobile__item">
+								<a href="#" class="menu-mobile__link">Отзывы</a>
+							</li>
+							<li class="menu-mobile__item">
+								<a href="#" class="menu-mobile__link">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="burger-menu__bottom">
+						<div class="burger-menu__contacts">
+							<a href="tel:+78005553555" class="burger-menu__contacts-item burger-menu__contacts-item_tel">
+								8 800 555 3555
+							</a>
+							<a href="mailto:info-site@mail.ru" class="burger-menu__contacts-item burger-menu__contacts-item_email">
+								info-site@mail.ru
+							</a>
+						</div>
+						<div class="burger-menu__bottom-right">
+							<button data-popup="#region" class="burger-menu__region">
+								<span>Ваш город: <span>Москва</span></span>
+							</button>
+							<div class="burger-menu__social social">
+								<a href="#" class="social__link">
+									<img src="img/icons/burger-wh.svg" alt="Whatsapp">
+								</a>
+								<a href="#" class="social__link">
+									<img src="img/icons/burger-tg.svg" alt="Telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main-section main-section">
+				<div class="main-section__wrap">
+					<div class="main-section__slider swiper">
+						<div class="main-section__wrapper swiper-wrapper">
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__image-ibg">
+									<picture><source srcset="img/main-section/image-01.webp" type="image/webp"><img src="img/main-section/image-01.png" alt="image"></picture>
+								</div>
+								<div class="main-section__container">
+									<div class="main-section__content">
+										<div class="main-section__subtitle">Профессиональная помощь</div>
+										<h1 class="main-section__title main-title">
+											В сфере кредитования
+											и инвестиций
+										</h1>
+										<div class="main-section__text">
+											<p>
+												Поможем получить кредит, ссуду, заем на выгодных условиях
+												с любой кредитной историей.
+											</p>
+											<p>
+												Работаем со всеми банками
+											</p>
+										</div>
+										<div class="main-section__btns">
+											<button data-popup="#order" class="main-section__btn btn">Записаться на прием</button>
+											<button data-goto="#credit" class="main-section__btn btn btn_white">Получить
+												кредит</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__image-ibg">
+									<picture><source srcset="img/main-section/image-01.webp" type="image/webp"><img src="img/main-section/image-01.png" alt="image"></picture>
+								</div>
+								<div class="main-section__container">
+									<div class="main-section__content">
+										<div class="main-section__subtitle">Профессиональная помощь</div>
+										<h2 class="main-section__title main-title">
+											В сфере кредитования
+											и инвестиций
+										</h2>
+										<div class="main-section__text">
+											<p>
+												Поможем получить кредит, ссуду, заем на выгодных условиях
+												с любой кредитной историей.
+											</p>
+											<p>
+												Работаем со всеми банками
+											</p>
+										</div>
+										<div class="main-section__btns">
+											<button data-popup="#order" class="main-section__btn btn">Записаться на прием</button>
+											<button data-goto="#credit" class="main-section__btn btn btn_white">Получить
+												кредит</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main-section__slide swiper-slide">
+								<div class="main-section__image-ibg">
+									<picture><source srcset="img/main-section/image-01.webp" type="image/webp"><img src="img/main-section/image-01.png" alt="image"></picture>
+								</div>
+								<div class="main-section__container">
+									<div class="main-section__content">
+										<div class="main-section__subtitle">Профессиональная помощь</div>
+										<h2 class="main-section__title main-title">
+											В сфере кредитования
+											и инвестиций
+										</h2>
+										<div class="main-section__text">
+											<p>
+												Поможем получить кредит, ссуду, заем на выгодных условиях
+												с любой кредитной историей.
+											</p>
+											<p>
+												Работаем со всеми банками
+											</p>
+										</div>
+										<div class="main-section__btns">
+											<button data-popup="#order" class="main-section__btn btn">Записаться на прием</button>
+											<button data-goto="#credit" class="main-section__btn btn btn_white">Получить
+												кредит</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-section__arrs">
+						<button class="main-section__arr main-section__arr_prev">
+							<img src="img/icons/btn-arr.svg" alt="arr">
+						</button>
+						<button class="main-section__arr main-section__arr_next">
+							<img src="img/icons/btn-arr.svg" alt="arr">
+						</button>
+					</div>
+				</div>
+				<div class="main-section__advantages-wrap">
+					<div class="main-section__container">
+						<div class="main-section__advantages">
+
+							<div class="main-section__advantage-wrap">
+								<div class="main-section__advantage">
+									Название компании
+								</div>
+							</div>
+							<div class="main-section__advantage">
+								Бесплатные консультации
+							</div>
+							<div class="main-section__advantage">
+								Минимальный пакет документов
+							</div>
+							<div class="main-section__advantage">
+								Гарантированный результат
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__service service">
+				<div class="service__container">
+					<h2 class="service__title title">
+						Наши услуги
+					</h2>
+					<div class="service__grid">
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+						<div class="service__item item-service">
+							<h5 class="item-service__title">Потребительский кредит</h5>
+							<ul class="item-service__list">
+								<li class="item-service__li">Сумма: до 30 000 000 ₽</li>
+								<li class="item-service__li">Ставка: от 6% годовых</li>
+								<li class="item-service__li">Срок: 30 лет</li>
+								<li class="item-service__li">Срок одобрения: 15 мин</li>
+							</ul>
+							<button data-popup="#order" class="item-service__btn btn">
+								Оставить заявку
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__credit credit">
+				<div class="credit__container">
+					<h2 class="credit__title title">
+						Онлайн-заявка на кредит
+					</h2>
+					<div class="credit__text">
+						Отправьте заявку и получите варианты кредитования уже сегодня!
+					</div>
+					<div class="credit__image-ibg">
+						<picture><source srcset="img/credit/image-01.webp" type="image/webp"><img src="img/credit/image-01.jpg" alt="image"></picture>
+					</div>
+					<div class="credit__icons">
+						<div class="credit__icon">
+							<img src="img/credit/icon-01.svg" alt="icon">
+						</div>
+						<div class="credit__icon">
+							<img src="img/credit/icon-02.svg" alt="icon">
+						</div>
+						<div class="credit__icon">
+							<img src="img/credit/icon-03.svg" alt="icon">
+						</div>
+						<div class="credit__icon">
+							<img src="img/credit/icon-04.svg" alt="icon">
+						</div>
+					</div>
+					<div class="credit__form form-credit">
+						<select class="form" data-placeholder="Вид кредита" name="form[]">
+							<option value="" selected>Вид кредита</option>
+							<option value="2">Ипотечный кредит</option>
+							<option value="3">Автокредит</option>
+							<option value="4">На образование</option>
+							<option value="5">Потребительский кредит</option>
+						</select>
+						<div class="form-credit__wrap">
+							<div class="form-credit__item">
+								<div class="form-credit__input form-credit__input_sum">
+									<input placeholder="Сумма кредита" type="text">
+
+								</div>
+								<div class="form-credit__range-block">
+									<span>100000</span>
+									<span>1 000 000 000</span>
+								</div>
+								<div data-from="100000" data-to="1000000000" class="form-credit__range form-credit__range_credit"></div>
+
+							</div>
+							<div class="form-credit__item">
+								<div class="form-credit__input form-credit__input_time">
+									<input placeholder="Срок кредитования" type="text">
+
+								</div>
+								<div class="form-credit__range-block">
+									<span>1 год</span>
+									<span>40 лет</span>
+								</div>
+								<div data-from="1" data-to="40" class="form-credit__range form-credit__range_time"></div>
+
+							</div>
+							<div class="form-credit__item form-credit__item_last">
+								<div class="form-credit__input form-credit__input_percent">
+									<input placeholder="Процентная ставка" type="text">
+
+								</div>
+								<div class="form-credit__range-block">
+									<span>3,5%</span>
+									<span>15%</span>
+								</div>
+								<div data-from="3.5" data-to="15" class="form-credit__range form-credit__range_percent"></div>
+
+							</div>
+							<div class="form-credit__button">
+								<div class="form-credit__total">
+									Ежемесячный платеж: <span>35000 руб.</span>
+								</div>
+								<button type="button" data-popup="#order" class="form-credit__btn btn">Получить одобрение</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<h2 class="advantages__title title">
+						Преимущества работы с нашей компанией
+					</h2>
+					<div class="advantages__grid">
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-01.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Кредит на любые цели
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-02.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Работаем с любой кредитной историей
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-03.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Работаем без отказов
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-04.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Гарантия выдачи кредита по договору!
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-03.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Работаем без отказов
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-04.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Гарантия выдачи кредита по договору!
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-01.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Кредит на любые цели
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-02.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Работаем с любой кредитной историей
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-03.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Работаем без отказов
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-04.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Гарантия выдачи кредита по договору!
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-03.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Работаем без отказов
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages/icon-04.svg" alt="icon">
+							</div>
+							<div class="advantages__text">
+								Гарантия выдачи кредита по договору!
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__section-num num-section">
+				<div class="num-section__container">
+					<h2 class="num-section__title title">
+						Цифры о нас
+					</h2>
+					<div class="num-section__advs">
+						<div class="num-section__adv">
+							<div class="num-section__num">10 000</div>
+							<div class="num-section__text">Выданных кредитов</div>
+						</div>
+						<div class="num-section__adv">
+							<div class="num-section__num">8%</div>
+							<div class="num-section__text">Средняя ставка</div>
+						</div>
+						<div class="num-section__adv">
+							<div class="num-section__num">120+</div>
+							<div class="num-section__text">Банков-партнеров</div>
+						</div>
+						<div class="num-section__adv">
+							<div class="num-section__num">14 лет</div>
+							<div class="num-section__text">Стабильной работы</div>
+						</div>
+						<div class="num-section__adv">
+							<div class="num-section__num">3 млрд ₽</div>
+							<div class="num-section__text">Было выдано с нашей помощью</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__offer offer">
+				<div class="offer__container">
+					<h2 class="offer__title title">
+						Выгодные предложения от банков-партнеров
+					</h2>
+					<div class="offer__grid">
+						<a href="#" class="offer__item item-offer">
+							<div class="item-offer__logo">
+								<img src="img/offer/logo.svg" alt="logo">
+							</div>
+							<div class="item-offer__text">Тариф: Потребительский</div>
+							<ul class="item-offer__list">
+								<li class="item-offer__li">50000-3000000 ₽</li>
+								<li class="item-offer__li">От 5% ставка в год</li>
+								<li class="item-offer__li">от 6 месяцев до 5 лет</li>
+							</ul>
+							<div class="item-offer__bottom">
+								Узнать подробнее
+							</div>
+						</a>
+						<a href="#" class="offer__item item-offer">
+							<div class="item-offer__logo">
+								<img src="img/offer/logo.svg" alt="logo">
+							</div>
+							<div class="item-offer__text">Тариф: Потребительский</div>
+							<ul class="item-offer__list">
+								<li class="item-offer__li">50000-3000000 ₽</li>
+								<li class="item-offer__li">От 5% ставка в год</li>
+								<li class="item-offer__li">от 6 месяцев до 5 лет</li>
+							</ul>
+							<div class="item-offer__bottom">
+								Узнать подробнее
+							</div>
+						</a>
+						<a href="#" class="offer__item item-offer">
+							<div class="item-offer__logo">
+								<img src="img/offer/logo.svg" alt="logo">
+							</div>
+							<div class="item-offer__text">Тариф: Потребительский</div>
+							<ul class="item-offer__list">
+								<li class="item-offer__li">50000-3000000 ₽</li>
+								<li class="item-offer__li">От 5% ставка в год</li>
+								<li class="item-offer__li">от 6 месяцев до 5 лет</li>
+							</ul>
+							<div class="item-offer__bottom">
+								Узнать подробнее
+							</div>
+						</a>
+						<a href="#" class="offer__item item-offer">
+							<div class="item-offer__logo">
+								<img src="img/offer/logo.svg" alt="logo">
+							</div>
+							<div class="item-offer__text">Тариф: Потребительский</div>
+							<ul class="item-offer__list">
+								<li class="item-offer__li">50000-3000000 ₽</li>
+								<li class="item-offer__li">От 5% ставка в год</li>
+								<li class="item-offer__li">от 6 месяцев до 5 лет</li>
+							</ul>
+							<div class="item-offer__bottom">
+								Узнать подробнее
+							</div>
+						</a>
+					</div>
+					<div class="offer__btn-wrap"><button data-popup="#order" class="offer__btn btn">Подобрать
+							лучшие условия для вас</button></div>
+				</div>
+			</section>
+			<section class="page__process process">
+				<div class="process__container">
+					<div class="process__row">
+						<div class="process__left">
+							<div class="process__image">
+								<picture><source srcset="img/process/image-01.webp" type="image/webp"><img src="img/process/image-01.jpg" alt="img"></picture>
+							</div>
+							<div class="process__advs">
+								<div class="process__adv">Гарантия выдачи кредита</div>
+								<div class="process__adv">Работаем без отказов</div>
+							</div>
+							<div class="process__image-small">
+								<picture><source srcset="img/process/image-02.webp" type="image/webp"><img src="img/process/image-02.jpg" alt="image"></picture>
+							</div>
+						</div>
+						<div class="process__right">
+							<h2 class="process__title title">Процесс получения кредита в нашей компании</h2>
+							<ol class="process__list">
+								<li class="process__li">
+									<div class="process__num">
+										<span class="_num">1<span class="_dotted">.</span></span>
+									</div>
+									<div class="process__text">
+										<div class="process__subtitle">Подача заявки</div>
+										<div class="process__subtext">
+											Свяжитесь с нами, чтобы получить кредит в кратчайшие сроки с
+											наимболее выгодными условиями!
+										</div>
+										<button data-popup="#order" class="process__btn">Оставить
+											заявку</button>
+									</div>
+
+								</li>
+								<li class="process__li">
+									<div class="process__num">
+										<span class="_num">2<span class="_dotted">.</span></span>
+									</div>
+									<div class="process__text">
+										<div class="process__subtitle">Консультация. Подготовка документов
+										</div>
+										<div class="process__subtext">
+											Обсуждаем условия, собираем информацию о ваших целях и
+											обстоятельствах. Наши юристы подготовят все документы.
+										</div>
+										<button data-popup="#order" class="process__btn">Оставить
+											заявку</button>
+									</div>
+
+								</li>
+								<li class="process__li">
+									<div class="process__num">
+										<span class="_num">3<span class="_dotted">.</span></span>
+									</div>
+									<div class="process__text">
+										<div class="process__subtitle">Подача заявок в банк. Получение
+											одобрения.</div>
+										<div class="process__subtext">
+											Подберем наиболее эффективные предложения, подадим заявления от
+											вашего имени
+										</div>
+										<button data-popup="#order" class="process__btn">Оставить
+											заявку</button>
+									</div>
+
+								</li>
+								<li class="process__li">
+									<div class="process__num">
+										<span class="_num">4<span class="_dotted">.</span></span>
+									</div>
+									<div class="process__text">
+										<div class="process__subtitle">Проверка кредитного договора и условий
+										</div>
+										<div class="process__subtext">
+											Профессиональный юрист по экономическому праву проверит каждый
+											нюанс кредитного договора, предупредит риски, найдет
+											подводные камни и мелкий текст. Высчитаем вашу выгоду от
+											предложения.
+										</div>
+										<button data-popup="#order" class="process__btn">Оставить
+											заявку</button>
+									</div>
+
+								</li>
+								<li class="process__li">
+									<div class="process__num">
+										<span class="_num">5<span class="_dotted">.</span></span>
+									</div>
+									<div class="process__text">
+										<div class="process__subtitle">Получение кредита. Оплата наших услуг
+										</div>
+										<div class="process__subtext">
+											Работаем на результат.
+											Оплата по факту получения вами кредита на руки.
+										</div>
+										<button data-popup="#order" class="process__btn">Оставить
+											заявку</button>
+									</div>
+
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__compare compare">
+				<div class="compare__container">
+					<h2 class="compare__title title">
+						Сравните шансы на получение кредита
+					</h2>
+					<div class="compare__items">
+						<div class="compare__item">
+							<div class="compare__percent">
+								99,9%
+							</div>
+							<div class="compare__text">
+								С помощью "Российского
+								финансового дома"
+							</div>
+							<ul class="compare__list">
+								<li class="compare__li">Любые суммы кредита</li>
+								<li class="compare__li">Гарантия результата</li>
+								<li class="compare__li">Оплата по факту</li>
+								<li class="compare__li">Помощь юриста</li>
+								<li class="compare__li">Постоянная поддержка</li>
+								<li class="compare__li">Лучшие условия кредитования</li>
+								<li class="compare__li">Любая кредитная история</li>
+								<li class="compare__li">Помощь от партнеров</li>
+							</ul>
+						</div>
+						<div class="compare__item">
+							<div class="compare__percent">
+								50%
+							</div>
+							<div class="compare__text">
+								В других компаниях
+							</div>
+							<ul class="compare__list">
+								<li class="compare__li">Ограничение по суммам кредитования</li>
+								<li class="compare__li">Без гарантий</li>
+								<li class="compare__li">Работа по предоплате с неизвестным результатом</li>
+								<li class="compare__li">Забудут о вас сразу после получения предоплаты</li>
+								<li class="compare__li">Стандартные формы документов, без участия юриста</li>
+								<li class="compare__li">Условия кредита - какие получатся</li>
+								<li class="compare__li">Не работают с плохой кредитной историей</li>
+								<li class="compare__li">Без помощи от партнеров. Голые заявки</li>
+							</ul>
+						</div>
+						<div class="compare__item">
+							<div class="compare__percent">
+								15%
+							</div>
+							<div class="compare__text">
+								Самостоятельно
+							</div>
+							<ul class="compare__list">
+								<li class="compare__li">Ограничение по суммам кредитования</li>
+								<li class="compare__li">Низкий шанс одобрения</li>
+								<li class="compare__li">Переплата по процентным ставкам</li>
+								<li class="compare__li">Риски по кредитам, проблемы с навязанными услугами от
+									банков</li>
+								<li class="compare__li">Без помошников. Надежда только на себя</li>
+								<li class="compare__li">Никаких кредитов для плохой кредитной истории</li>
+								<li class="compare__li">Не работают с плохой кредитной историей</li>
+								<li class="compare__li">Сотни заявок без результатов</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__result result">
+				<div class="result__container">
+					<div class="result__wrapper">
+						<div class="result__row">
+							<div class="result__content">
+								<h2 class="result__title">Не верите в наш результат?</h2>
+								<div class="result__text">
+									Свяжитесь с нами, мы докажем наш профессионализм!
+								</div>
+							</div>
+							<button data-popup="#order" class="result__btn btn">Связаться с нами</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__history history">
+				<div class="history__container">
+					<h2 class="history__title title">Бесплатная проверка кредитной истории</h2>
+					<div class="history__text">
+						<p>Как получить <b>БЕСПЛАТНО</b> свою кредитную историю из 4-х основных бюро: ОКБ, НБКИ,
+							ЭКВИФАКС, КБРС? Все очень просто!</p>
+						<p>Потребуется только 5 минут! Основное требование - быть зарегистрированным на
+							ГОСУСЛУГАХ. <b>Нажмите на кнопки ПРОВЕРИТЬ.</b></p>
+					</div>
+					<div class="history__items">
+						<a href="#" class="history__item">
+							<h4 class="history__subtitle">Краткий заголовок</h4>
+							<div class="history__subtext">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit mollitia itaque enim
+								excepturi in asperiores...
+							</div>
+							<div class="history__image-wrap">
+								<div class="history__image-ibg">
+									<picture><source srcset="img/history/image-01.webp" type="image/webp"><img src="img/history/image-01.jpg" alt="image"></picture>
+								</div>
+							</div>
+							<div class="history__btn">Проверить</div>
+						</a>
+						<a href="#" class="history__item">
+							<h4 class="history__subtitle">Краткий заголовок</h4>
+							<div class="history__subtext">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit mollitia itaque enim
+								excepturi in asperiores...
+							</div>
+							<div class="history__image-wrap">
+								<div class="history__image-ibg">
+									<picture><source srcset="img/history/image-01.webp" type="image/webp"><img src="img/history/image-01.jpg" alt="image"></picture>
+								</div>
+							</div>
+							<div class="history__btn">Проверить</div>
+						</a>
+						<a href="#" class="history__item">
+							<h4 class="history__subtitle">Краткий заголовок</h4>
+							<div class="history__subtext">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit mollitia itaque enim
+								excepturi in asperiores...
+							</div>
+							<div class="history__image-wrap">
+								<div class="history__image-ibg">
+									<picture><source srcset="img/history/image-01.webp" type="image/webp"><img src="img/history/image-01.jpg" alt="image"></picture>
+								</div>
+							</div>
+							<div class="history__btn">Проверить</div>
+						</a>
+						<a href="#" class="history__item">
+							<h4 class="history__subtitle">Краткий заголовок</h4>
+							<div class="history__subtext">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit mollitia itaque enim
+								excepturi in asperiores...
+							</div>
+							<div class="history__image-wrap">
+								<div class="history__image-ibg">
+									<picture><source srcset="img/history/image-01.webp" type="image/webp"><img src="img/history/image-01.jpg" alt="image"></picture>
+								</div>
+							</div>
+							<div class="history__btn">Проверить</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__company company">
+				<div class="company__container">
+					<div class="company__row">
+						<div class="company__content">
+							<h2 class="company__title title">О компании "Российский Финасовый Дом"</h2>
+							<div class="company__text">
+								<p>
+									Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+									legendos at vix ad putent delectus delicata usu.
+									Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum
+									an. Per facer affert ut. Mei iisque mentitum
+									moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis.
+									Te facilisis mnesarchum qui posse omnium
+									mediocritatem est cu.
+								</p>
+
+								<p>
+									Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere
+									efficiantur et tollit aliquip debitis mei. No
+									deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus
+									accommodare his consul copiosae legendos at vix ad
+									putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae
+									hendrerit. Eos erant dolorum an.
+								</p>
+
+								<p>
+									Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis
+									accusam eu dicat falli consulatu at vis. Te
+									facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus
+									argumentum ne qui tation efficiendi in eos. Ei mea
+									falli legere efficiantur et tollit aliquip debitis mei. No deserunt
+									mediocritatem mel. Lorem ipsum dolor sit amet et
+									delectus accommodare his consul copiosae legendos at vix ad putent delectus
+									delicata usu. Vidit dissentiet eos cu eum an
+									brute copiosae hendrerit.
+								</p>
+							</div>
+						</div>
+						<div class="company__image-ibg">
+							<picture><source srcset="img/company/image-01.webp" type="image/webp"><img src="img/company/image-01.jpg" alt="image"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__certificates certificates">
+				<div class="certificates__wrap">
+					<div class="certificates__container">
+						<h2 class="certificates__title title">Наши сертификаты</h2>
+						<div class="certificates__slider swiper">
+							<div data-gallery class="certificates__wrapper swiper-wrapper">
+								<a href="img/certificates/image-01.png" class="certificates__slide-ibg swiper-slide">
+									<picture><source srcset="img/certificates/image-01.webp" type="image/webp"><img src="img/certificates/image-01.png" alt="certificate"></picture>
+								</a>
+								<a href="img/certificates/image-01.png" class="certificates__slide-ibg swiper-slide">
+									<picture><source srcset="img/certificates/image-01.webp" type="image/webp"><img src="img/certificates/image-01.png" alt="certificate"></picture>
+								</a>
+								<a href="img/certificates/image-01.png" class="certificates__slide-ibg swiper-slide">
+									<picture><source srcset="img/certificates/image-01.webp" type="image/webp"><img src="img/certificates/image-01.png" alt="certificate"></picture>
+								</a>
+								<a href="img/certificates/image-01.png" class="certificates__slide-ibg swiper-slide">
+									<picture><source srcset="img/certificates/image-01.webp" type="image/webp"><img src="img/certificates/image-01.png" alt="certificate"></picture>
+								</a>
+								<a href="img/certificates/image-01.png" class="certificates__slide-ibg swiper-slide">
+									<picture><source srcset="img/certificates/image-01.webp" type="image/webp"><img src="img/certificates/image-01.png" alt="certificate"></picture>
+								</a>
+								<a href="img/certificates/image-01.png" class="certificates__slide-ibg swiper-slide">
+									<picture><source srcset="img/certificates/image-01.webp" type="image/webp"><img src="img/certificates/image-01.png" alt="certificate"></picture>
+								</a>
+							</div>
+							<div class="certificates__arrs">
+								<button class="certificates__arr certificates__arr_prev">
+									<img src="img/icons/btn-arr.svg" alt="arrow">
+								</button>
+								<button class="certificates__arr certificates__arr_next">
+									<img src="img/icons/btn-arr.svg" alt="arrow">
+								</button>
+							</div>
+							<div class="certificates__pagination pagination-slider"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__partners partners">
+				<div class="certificates__wrap">
+					<div class="partners__container">
+						<h2 class="partners__title title">Наши партнеры</h2>
+						<div class="partners__slider swiper">
+							<div class="partners__wrapper swiper-wrapper">
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+								<div class="partners__slide swiper-slide">
+									<picture><source srcset="img/partners/image-01.webp" type="image/webp"><img src="img/partners/image-01.png" alt="icon"></picture>
+								</div>
+							</div>
+							<div class="certificates__arrs">
+								<button class="certificates__arr certificates__arr_prev">
+									<img src="img/icons/btn-arr.svg" alt="arrow">
+								</button>
+								<button class="certificates__arr certificates__arr_next">
+									<img src="img/icons/btn-arr.svg" alt="arrow">
+								</button>
+							</div>
+							<div class="partners__pagination pagination-slider"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__reviews reviews">
+				<div class="certificates__wrap">
+					<div class="reviews__container">
+						<h2 class="reviews__title title">Отзывы о нас</h2>
+						<div class="reviews__slider swiper">
+							<div class="reviews__wrapper swiper-wrapper">
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__slide-body">
+										<div class="reviews__avatar">
+											<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt="avatar"></picture>
+										</div>
+										<div class="reviews__name">Ульяна</div>
+										<div class="reviews__quotes">
+											<img src="img/reviews/quotes.svg" alt="icon">
+										</div>
+										<div class="reviews__text">
+											Lorem ipsum dolor sit amet et delectus accommodare his consul
+											copiosae legendos at vix ad putent delectus delicata usu.
+											Vidit dissentiet eos cu eum an brute copiosae...<a href="#">подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__slide-body">
+										<div class="reviews__avatar">
+											<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt="avatar"></picture>
+										</div>
+										<div class="reviews__name">Ульяна</div>
+										<div class="reviews__quotes">
+											<img src="img/reviews/quotes.svg" alt="icon">
+										</div>
+										<div class="reviews__text">
+											Lorem ipsum dolor sit amet et delectus accommodare his consul
+											copiosae legendos at vix ad putent delectus
+											delicata usu.
+											Vidit dissentiet eos cu eum an brute copiosae...<a href="#">подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__slide-body">
+										<div class="reviews__avatar">
+											<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt="avatar"></picture>
+										</div>
+										<div class="reviews__name">Ульяна</div>
+										<div class="reviews__quotes">
+											<img src="img/reviews/quotes.svg" alt="icon">
+										</div>
+										<div class="reviews__text">
+											Lorem ipsum dolor sit amet et delectus accommodare his consul
+											copiosae legendos at vix ad putent delectus
+											delicata usu.
+											Vidit dissentiet eos cu eum an brute copiosae...<a href="#">подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__slide-body">
+										<div class="reviews__avatar">
+											<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt="avatar"></picture>
+										</div>
+										<div class="reviews__name">Ульяна</div>
+										<div class="reviews__quotes">
+											<img src="img/reviews/quotes.svg" alt="icon">
+										</div>
+										<div class="reviews__text">
+											Lorem ipsum dolor sit amet et delectus accommodare his consul
+											copiosae legendos at vix ad putent delectus
+											delicata usu.
+											Vidit dissentiet eos cu eum an brute copiosae...<a href="#">подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__slide-body">
+										<div class="reviews__avatar">
+											<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt="avatar"></picture>
+										</div>
+										<div class="reviews__name">Ульяна</div>
+										<div class="reviews__quotes">
+											<img src="img/reviews/quotes.svg" alt="icon">
+										</div>
+										<div class="reviews__text">
+											Lorem ipsum dolor sit amet et delectus accommodare his consul
+											copiosae legendos at vix ad putent delectus
+											delicata usu.
+											Vidit dissentiet eos cu eum an brute copiosae...<a href="#">подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="reviews__slide swiper-slide">
+									<div class="reviews__slide-body">
+										<div class="reviews__avatar">
+											<picture><source srcset="img/reviews/avatar.webp" type="image/webp"><img src="img/reviews/avatar.jpg" alt="avatar"></picture>
+										</div>
+										<div class="reviews__name">Ульяна</div>
+										<div class="reviews__quotes">
+											<img src="img/reviews/quotes.svg" alt="icon">
+										</div>
+										<div class="reviews__text">
+											Lorem ipsum dolor sit amet et delectus accommodare his consul
+											copiosae legendos at vix ad putent delectus
+											delicata usu.
+											Vidit dissentiet eos cu eum an brute copiosae...<a href="#">подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="certificates__arrs">
+								<button class="certificates__arr certificates__arr_prev">
+									<img src="img/icons/btn-arr.svg" alt="arrow">
+								</button>
+								<button class="certificates__arr certificates__arr_next">
+									<img src="img/icons/btn-arr.svg" alt="arrow">
+								</button>
+							</div>
+							<div class="reviews__pagination pagination-slider"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__faq faq">
+				<div class="faq__container">
+					<h2 class="faq__title title">Часто задаваемые вопросы</h2>
+					<div data-spollers class="spollers">
+						<div class="spollers__left">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>Чем кредитный брокер
+										поможет, если банки отказывают в кредите?</span><span class="plus"></span></button>
+								<div class="spollers__body">
+									Мы работаем без предоплаты. Вы оплачиваете работу кредитного брокера только
+									после фактического получения денег от банка.
+									При участии в процессе оформления специалистов компании «ГУРУ Кредит»
+									вероятность одобрения заявки повышается до 95%.
+									Стоимость наших услуг рассчитывается индивидуально.
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>Чем кредитный брокер
+										поможет, если банки отказывают в кредите?</span><span class="plus"></span></button>
+								<div class="spollers__body">
+									Мы работаем без предоплаты. Вы оплачиваете работу кредитного брокера только
+									после фактического получения денег от банка.
+									При участии в процессе оформления специалистов компании «ГУРУ Кредит»
+									вероятность одобрения заявки повышается до 95%.
+									Стоимость наших услуг рассчитывается индивидуально.
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>Чем кредитный брокер
+										поможет, если банки отказывают в кредите?</span><span class="plus"></span></button>
+								<div class="spollers__body">
+									Мы работаем без предоплаты. Вы оплачиваете работу кредитного брокера только
+									после фактического получения денег от банка.
+									При участии в процессе оформления специалистов компании «ГУРУ Кредит»
+									вероятность одобрения заявки повышается до 95%.
+									Стоимость наших услуг рассчитывается индивидуально.
+								</div>
+							</div>
+						</div>
+						<div class="spollers__right">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>Чем кредитный брокер
+										поможет, если банки отказывают в кредите?</span><span class="plus"></span></button>
+								<div class="spollers__body">
+									Мы работаем без предоплаты. Вы оплачиваете работу кредитного брокера только
+									после фактического получения денег от банка.
+									При участии в процессе оформления специалистов компании «ГУРУ Кредит»
+									вероятность одобрения заявки повышается до 95%.
+									Стоимость наших услуг рассчитывается индивидуально.
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>Чем кредитный брокер
+										поможет, если банки отказывают в кредите?</span><span class="plus"></span></button>
+								<div class="spollers__body">
+									Мы работаем без предоплаты. Вы оплачиваете работу кредитного брокера только
+									после фактического получения денег от банка.
+									При участии в процессе оформления специалистов компании «ГУРУ Кредит»
+									вероятность одобрения заявки повышается до 95%.
+									Стоимость наших услуг рассчитывается индивидуально.
+								</div>
+							</div>
+							<div class="spollers__item">
+								<button type="button" data-spoller class="spollers__title"><span>Чем кредитный брокер
+										поможет, если банки отказывают в кредите?</span><span class="plus"></span></button>
+								<div class="spollers__body">
+									Мы работаем без предоплаты. Вы оплачиваете работу кредитного брокера только
+									после фактического получения денег от банка.
+									При участии в процессе оформления специалистов компании «ГУРУ Кредит»
+									вероятность одобрения заявки повышается до 95%.
+									Стоимость наших услуг рассчитывается индивидуально.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__section-logo logo-section">
+				<div class="logo-section__container">
+					<div class="logo-section__row">
+						<div class="logo-section__left">
+							<img src="img/logo.svg" alt="logo">
+						</div>
+						<div class="logo-section__right content">
+							<h2>Получить кредит на выгодных условиях - просто с "Российским финансовым домом"</h2>
+							<p>
+								Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu.
+								Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum
+								moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium
+								mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit
+								aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul
+								copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos
+								erant dolorum
+							</p>
+							<h3>Заголовок h3, занимающий определенное место</h3>
+							<p>
+								Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu.
+								Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum
+								moderatius cu.
+							</p>
+							<ul>
+								<li>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos</li>
+								<li>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos</li>
+								<li>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos</li>
+								<li>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos</li>
+								<li>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos</li>
+								<li>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos</li>
+							</ul>
+							<h3>Заголовок h3, занимающий определенное место</h3>
+							<p>
+								Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu.
+								Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum
+								moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium
+								mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit
+								aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul
+								copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos
+								erant dolorum
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__consultation consultation">
+				<div class="consultation__container">
+					<div class="consultation__row">
+						<div class="consultation__content">
+							<h2 class="consultation__title title">Бесплатная консультация</h2>
+							<div class="consultation__text">
+								Закажите бесплатную консультацию от профессиольного кредитного брокера, юриста по экономическому праву. Узнайте
+								доступные программы кредитования, условия получения и получите ответы на любые вопросы по получению кредита.
+							</div>
+							<form action="#" class="consultation__form">
+								<div class="consultation__item">
+									<input type="text" placeholder="Имя">
+								</div>
+								<div class="consultation__item">
+									<input type="tel" class="input-tel" placeholder="Телефон">
+								</div>
+								<div class="consultation__item">
+									<button class="consultation__btn btn">Заказать консультацию</button>
+								</div>
+								<div class="consultation__privacy privacy">
+									<label>
+										<input type="checkbox">
+										<span>
+											Нажимая на кнопку, вы соглашаетесь на обработку персональных данных в соответствии
+											с <a href="#">политикой конфиденциальности</a>
+										</span>
+									</label>
+								</div>
+							</form>
+						</div>
+						<div class="consultation__image-ibg">
+							<picture><source srcset="img/consultation/image-01.webp" type="image/webp"><img src="img/consultation/image-01.jpg" alt="image"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__row">
+						<div class="contacts__map">
+							<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A168d61f8dc9e599fc643e258b3f4b8ef60a74585ee61b26f16fece992abea6db&amp;source=constructor" width="100%" frameborder="0"></iframe>
+						</div>
+						<div class="contacts__content">
+							<h2 class="contacts__title title">Наши контакты</h2>
+							<div class="contacts__item">
+								<span>Адрес:</span> г. Москва ул. Красногвардейская 67, о. 23
+							</div>
+							<div class="contacts__item">
+								<span>Время работы:</span> 8:00 - 19:00
+							</div>
+							<a href="#" class="contacts__item">
+								<span>Whatsapp:</span> 8-800-555-3555
+							</a>
+							<a href="#" class="contacts__item">
+								<span>Telegram:</span> 8-800-555-3555
+							</a>
+							<a href="mailto:electro-pochta@pochta.ru" class="contacts__item">
+								<span>Эл. почта:</span> electro-pochta@pochta.ru
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__left">
+						<div class="footer__logo-block">
+							<a href="/" class="footer__logo logo">
+								<img src="img/logo.svg" alt="logo">
+							</a>
+							<div class="footer__text">
+								<p>Поможем получить кредит, ссуду, заем на выгодных условиях с любой кредитной историей.</p>
+								<p>Работаем со всеми банками</p>
+							</div>
+						</div>
+						<div class="footer__contacts">
+							<a href="tel:+78005553555" class="footer__tel">8-800-555-3555</a>
+							<a href="mailto:electro-pochta@pochta.ru" class="footer__email">electro-pochta@pochta.ru</a>
+							<div class="footer__geo">г. Москва ул. Красногвардейская 67, о. 23</div>
+							<div class="footer__social social">
+								<a href="#" class="social__link">
+									<img src="img/icons/wh.svg" alt="Whatsapp">
+								</a>
+								<a href="#" class="social__link">
+									<img src="img/icons/tg.svg" alt="Telegram">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__center">
+						<div class="footer__subtitle">
+							Меню
+						</div>
+						<div class="footer__menu">
+							<ul class="footer__list">
+								<li class="footer__item">
+									<a href="#" class="footer__link">Главная</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Услуги</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Потребительский кредит</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Кредит для бизнеса</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Рефинансирование</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Информация для партнеров</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Статьи</a>
+								</li>
+								<li class="footer__item">
+									<a href="#" class="footer__link">Контакты</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="footer__right">
+						<div class="footer__subtitle">
+							Реквизиты:
+						</div>
+						<div class="footer__menu">
+							<ul class="footer__list">
+								<li class="footer__item">
+									Наименование организации:
+								</li>
+								<li class="footer__item">
+									Инн:
+								</li>
+								<li class="footer__item">
+									ОГРН:
+								</li>
+								<li class="footer__item">
+									Юридический адрес:
+								</li>
+								<li class="footer__item">
+									Адрес для корреспонденции:
+								</li>
+								<li class="footer__item">
+									Банк:
+								</li>
+								<li class="footer__item">
+									Р/С:
+								</li>
+								<li class="footer__item">
+									Кор. счет:
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="order" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.08734 7L13.79 1.29734C14.0778 1.00951 14.0778 0.534878 13.79 0.247021L13.7589 0.215871C13.471 -0.0719571 12.9964 -0.0719571 12.7085 0.215871L7.00588 5.92632L1.30321 0.215871C1.01538 -0.0719571 0.540754 -0.0719571 0.252898 0.215871L0.221748 0.247021C-0.073916 0.53485 -0.073916 1.00948 0.221748 1.29734L5.92441 7L0.221748 12.7027C-0.0660805 12.9905 -0.0660805 13.4651 0.221748 13.753L0.252898 13.7841C0.540727 14.072 1.01536 14.072 1.30321 13.7841L7.00588 8.08146L12.7085 13.7841C12.9964 14.072 13.471 14.072 13.7589 13.7841L13.79 13.753C14.0778 13.4652 14.0778 12.9905 13.79 12.7027L8.08734 7Z" fill="#595959" />
+					</svg>
+				</button>
+				<div class="popup__text">
+					<div class="popup__title">
+						Оставьте заявку
+						на <span>консультацию</span>
+					</div>
+					<form action="#" class="popup__form">
+						<input type="text" placeholder="Имя">
+						<input type="tel" placeholder="Телефон">
+						<button class="popup__btn btn">Заказать консультацию</button>
+						<div class="popup__privacy privacy">
+							<label>
+								<input type="checkbox">
+								<span>
+									Нажимая на кнопку, вы соглашаетесь на обработку персональных данных в соответствии с <a href="#">политикой конфиденциальности</a>
+								</span>
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20240617033121"></script>
+</body>
+
+</html>
